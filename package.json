@@ -1,0 +1,26 @@
+{
+  "name": "langchain-sty",
+  "version": "1.0.0",
+  "description": "LangChainJS 学习项目",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "langchain",
+    "ai",
+    "llm",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "langchain": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
