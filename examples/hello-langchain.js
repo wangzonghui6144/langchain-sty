@@ -2,6 +2,10 @@
 import { ChatOpenAI } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { StringOutputParser } from "@langchain/core/output_parsers";
+import dotenv from "dotenv";
+
+// 加载环境变量
+dotenv.config();
 
 async function helloLangChain() {
   console.log("👋 Hello LangChain!");

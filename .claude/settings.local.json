@@ -7,7 +7,15 @@
       "Bash(git commit:*)",
       "Bash(git branch:*)",
       "Bash(git remote:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(npm start:*)",
+      "Bash(node -e \"import dotenv from 'dotenv'; dotenv.config\\(\\); console.log\\('API Key:', process.env.OPENAI_API_KEY ? '已设置' : '未设置'\\); console.log\\('API Base:', process.env.OPENAI_API_BASE\\);\")",
+      "Bash(node src/test-basic.js)",
+      "Bash(node src/test-connection.js)",
+      "Bash(node src/offline-demo.js)",
+      "Bash(npm run:*)"
     ]
   }
 }
