@@ -9,6 +9,7 @@
     "dev": "node --watch src/index.js",
     "test": "node src/test-basic.js",
     "demo": "node src/offline-demo.js",
+    "robust": "node src/robust-demo.js",
     "connection-test": "node src/test-connection.js",
     "example": "node examples/hello-langchain.js"
   },

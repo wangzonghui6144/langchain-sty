@@ -12,8 +12,8 @@ async function helloLangChain() {
 
   // 1. 创建 LLM
   const llm = new ChatOpenAI({
-    modelName: "gpt-3.5-turbo",
-    temperature: 0.7,
+    modelName: "LongCat-Flash-Chat",
+    temperature: 0.7
   });
 
   // 2. 创建提示模板
